@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/visit.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <script src="./swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header头部 -->
+    <header class="header">
+        <a href="#" class="logo">失恋博物馆</a>
+
+        <!-- <div class="social-media">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>  -->
+
+        <nav class="navbar" style="margin-left: 600px;">
+            <a href="index.html">首页</a>
+          <a href="liuyan.html">留言板</a>
+          <a href="copywriter.html">文案馆</a>
+          <a href="story.html">故事墙</a>
+          <a href="music.html">音乐馆</a>
+          <a href="myself.html">我的房间</a>
+        </nav>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/visit/015a525d4c02dda80120695cc33c58.jpg@1280w_1l_2o_100sh.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img src="img/visit/100d170000011748hDB54.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/visit/W020201111837604882407.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/visit/R-C.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="inner-cont">
+        <div class="allcenter">
+            <div class="common-page  tourguide-page">
+                <h3 class="first-title-main">参观指南</h3>
+                <div class="common-page-flex">
+                    <main class="main">
+                        <div class="kfsj">
+                            <div class="opentime">
+                                <ul class="cgzn-time">
+                                    <li>
+                                        <p class="number fadeInLeft-40"
+                                            style="animation-name: fadeInLeft-40; visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s;">
+                                            9:00</p>
+                                        <p class="word fadeInLeft-40"
+                                            style="animation-name: fadeInLeft-40; visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s;">
+                                            开馆</p><i class="fadeInLeft"
+                                            style="animation-name: fadeInLeft; visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s;"></i>
+                                    </li>
+                                    <li>
+                                        <p class="number fadeInLeft-40"
+                                            style="animation-name: fadeInLeft-40; visibility: visible; animation-duration: 2s; animation-delay: 1.2s;">
+                                            17:00</p>
+                                        <p class="word fadeInLeft-40"
+                                            style="animation-name: fadeInLeft-40; visibility: visible; animation-duration: 2s; animation-delay: 1.2s;">
+                                            闭馆</p>
+                                    </li>
+                                </ul>
+                                <div class="cont">
+                                    <div class="yyewm">
+                                        <img src="img/visit/100j16000000z12g749F8.jpg" alt="" style="width: 100%;height: 100%;">
+                                    </div>
+                                    <div>
+                                        <p>成都市失恋博物馆自2018年起全年免费对外开放（特殊临展除外）</p>
+                                        <p>周一闭馆，遇法定节假日正常开放，闭馆顺延至节后第一天。</p>
+                                        <p>周二至周日9:00 - 17:00，16:30观众停止入场，17:00闭馆。</p>
+                                        <p>实名网上预约，可预约6天内的参观。每张预约单可预约人数不超过4人，5人以上请进行团队预约。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="innercommontitle">交通指南</h3>
+                        <div class="jtzn">
+                            <section class="ggjt">
+                                <div class="top"><span>公共交通</span></div>
+                                <p><b>成华区：</b>市内公交324M路/1499路/500路/1411路/，步行到达成都市成华区失恋博物馆。
+                                </p>
+                                <p><b>锦江区：</b>市内公交WE1314路, 可直达成都市锦江区失恋博物馆。</p>
+                            </section>
+                            <section class="zj">
+                                <div class="top"><span>自驾</span></div>
+                                <p><b>成华区：</b>位于四川省成都市顺城大街289成都富力广场5层5016，馆区设有地下停车场，可停在公共停车泊位内。</p>
+                                <p><b>锦江区：</b>位于四川省成都市顺城大街289成都富力广场5层5016，周末实行私家车单双号通行，请尽量选择公共交通工具，馆区内不设停车场，可停在大门口公共停车泊位内。</p>
+                            </section>
+                        </div>
+                        <div class="mapbox">
+                            <div class="mapbox-pc">
+                                <div class="place-tab">
+                                    <div class="tab-item active">成华区</div><span>|</span>
+                                    <div class="tab-item">锦江区</div>
+                                </div>
+                                <div id="mapcontainer" class="map"
+                                    style="overflow: hidden; position: relative; z-index: 0; background-color: rgb(243, 241, 236); color: rgb(0, 0, 0); text-align: left;">
+                                    <div
+                                        style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(&quot;https://api.map.baidu.com/images/openhand.cur&quot;) 8 8, default;">
+                                        <div class="BMap_mask"
+                                            style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; user-select: none; width: 920px; height: 400px;">
+                                        </div>
+                                        <div
+                                            style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;">
+                                                <div class="BMap_pop"
+                                                    style="box-sizing: content-box; position: absolute; cursor: default; left: 515px; top: 124px;">
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 0px; top: 0px; width: 25px; height: 25px;">
+                                                        <div
+                                                            style="box-sizing:content-box;background:#fff;border-top:1px solid #ababab;border-left:1px solid #ababab;width:30px;height:30px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="BMap_top"
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 25px; top: 0px; width: 202px; height: 25px;">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 227px; top: 0px; width: 25px; height: 25px;">
+                                                        <div
+                                                            style="box-sizing:content-box;position:absolute;top:0;left:-6px;background:#fff;border-top:1px solid #ababab;border-right:1px solid #ababab;width:30px;height:30px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="BMap_center"
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 0px; top: 25px; width: 250px; height: 58px;">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 0px; top: 83px; width: 25px; height: 25px;">
+                                                        <div
+                                                            style="box-sizing:content-box;position:absolute;top:-6px;left:0;background:#fff;border-bottom:1px solid #ababab;border-left:1px solid #ababab;width:30px;height:30px;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="BMap_bottom"
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 25px; top: 83px; width: 202px; height: 24px;">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 227px; top: 83px; width: 25px; height: 25px;">
+                                                        <div
+                                                            style="box-sizing:content-box;position:absolute;top:-6px;left:-6px;background:#fff;border-right:1px solid #ababab;border-bottom:1px solid #ababab;width:30px;height:30px;">
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 109px; top: 83px; width: 34px; height: 50px;">
+                                                        <img style="box-sizing:content-box;border:none;margin:0px;padding:0px;margin-left:-186px;margin-top:-691px;max-width:none; width:690px;height:786px;"
+                                                            src="https://api.map.baidu.com/images/iw3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; width: 220px; height: 76px; position: absolute; left: 16px; top: 16px; z-index: 10; overflow: hidden;">
+                                                        <div class="BMap_bubble_title"
+                                                            style="display: none; overflow: hidden; height: auto; line-height: 24px; white-space: nowrap; width: auto;">
+                                                        </div>
+                                                        <div class="BMap_bubble_content"
+                                                            style="width: auto; height: auto;"><a
+                                                                href="#"
+                                                                target="_blank">
+                                                                <h3>成都市失恋博物馆</h3>
+                                                                <p>成华区</p>
+                                                            </a></div>
+                                                    </div>
+                                                    <div
+                                                        style="position: absolute; top: 0px; left: 0px; z-index: 10000; width: 252px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
+                                                <span class="BMap_Marker BMap_noprint" unselectable="on" "="" style="
+                                                    position: absolute; padding: 0px; margin: 0px; border: 0px; cursor:
+                                                    pointer; background:
+                                                    url(&quot;https://api.map.baidu.com/images/blank.gif&quot;); width:
+                                                    19px; height: 25px; left: 614px; top: 256px; z-index: 11966586;
+                                                    user-select: none;" title=""></span>
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;">
+                                                <div class="BMap_shadow"
+                                                    style="position: absolute; left: 493px; top: 179px;"
+                                                    type="infowindow_shadow">
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 46px; top: 0px; width: 70px; height: 30px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -323px; margin-top: 0px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 116px; top: 0px; width: 163px; height: 30px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -393px; margin-top: 0px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 279px; top: 0px; width: 70px; height: 30px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -1033px; margin-top: 0px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 29px; top: 30px; width: 87px; height: 17px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-top: -30px; margin-left: -306px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 116px; top: 30px; width: 175px; height: 17px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -360px; margin-top: -30px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 291px; top: 30px; width: 87px; height: 17px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-top: -30px; margin-left: -1046px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 0px; top: 47px; width: 50px; height: 60px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -14px; margin-top: -310px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 50px; top: 47px; width: 11px; height: 60px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -255px; margin-top: -310px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 61px; top: 47px; width: 140px; height: 60px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -440px; margin-top: -310px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 201px; top: 47px; width: 61px; height: 60px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -255px; margin-top: -310px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                    <div
+                                                        style="box-sizing: content-box; overflow: hidden; z-index: 1; position: absolute; left: 262px; top: 47px; width: 70px; height: 60px;">
+                                                        <img onmousedown="return false"
+                                                            style="margin-left: -754px; margin-top: -310px;"
+                                                            src="https://api.map.baidu.com/images/iws3.png">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;">
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;">
+                                                <span class="BMap_Marker" unselectable="on"
+                                                    style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: 614px; top: 256px; z-index: 11966586;">
+                                                    <div
+                                                        style="position: absolute; margin: 0px; padding: 0px; width: 19px; height: 25px; overflow: hidden;">
+                                                        <img src="https://api.map.baidu.com/images/marker_red_sprite.png"
+                                                            style="display: block; border:none;margin-left:0px; margin-top:0px; ">
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 300;">
+                                                <span unselectable="on"
+                                                    style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 11px; left: 618px; top: 270px;">
+                                                    <div
+                                                        style="position: absolute; margin: 0px; padding: 0px; width: 20px; height: 11px; overflow: hidden;">
+                                                        <img src="https://api.map.baidu.com/images/marker_red_sprite.png"
+                                                            style="display: block; border:none;margin-left:-19px; margin-top:-13px; ">
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 201;">
+                                            </div>
+                                            <div
+                                                style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 1;">
+                                            <div
+                                                style="position: absolute; overflow: visible; z-index: -100; left: 460px; top: 200px; display: block; transform: translate3d(0px, 0px, 0px);">
+                                                <img src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13056&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -146px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13055&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -402px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13057&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 110px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13056&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -146px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13054&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -658px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13058&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 366px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13055&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -402px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13057&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 110px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13053&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -914px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13059&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 622px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13054&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -658px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13058&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 366px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13060&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 878px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13053&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -914px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13059&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 622px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13060&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 878px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13056&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -146px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13052&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -1170px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13057&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 110px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13059&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 622px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13052&amp;y=3421&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -1170px; top: -107px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline3.bdimg.com/tile/?qt=vtile&amp;x=13053&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -914px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13052&amp;y=3420&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -1170px; top: 149px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline1.bdimg.com/tile/?qt=vtile&amp;x=13055&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -402px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13058&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 366px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline0.bdimg.com/tile/?qt=vtile&amp;x=13054&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: -658px; top: -363px; max-width: none; opacity: 1;"><img
+                                                    src="https://maponline2.bdimg.com/tile/?qt=vtile&amp;x=13060&amp;y=3422&amp;z=16&amp;styles=pl&amp;scaler=1&amp;udt=20231025&amp;from=jsapi2_0"
+                                                    style="position: absolute; border: none; width: 256px; height: 256px; left: 878px; top: -363px; max-width: none; opacity: 1;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 2; display: none; visibility: hidden;">
+                                            <div
+                                                style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 0; display: none;">
+                                            </div>
+                                            <div
+                                                style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 10; display: none;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 3;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cutline"></div>
+                        <h3 class="innercommontitle">参观须知</h3>
+                        <div class="cgxz">
+                            <ul class="cgxz-list">
+                                <li class="item">入馆请自觉接受安全检查，禁止携带易燃、易爆等危险品和国家明令禁止的物品；</li>
+                                <li class="item">醉酒者、限制行为能力者、衣履不整者、携带宠物者谢绝入馆；</li>
+                                <li class="item">幼童、高龄老人、行动不便者须由成年人看护入馆；</li>
+                                <li class="item">外来机动车和非机动车请勿入馆；</li>
+                                <li class="item">请听从工作人员引导，维护良好的参观秩序和参观环境；</li>
+                                <li class="item">请勿在馆区吸烟，请勿随意丢弃杂物，自觉维护环境卫生；</li>
+                                <li class="item">请勿在展厅内饮食、喧哗等，爱护各类设施，文明参观；</li>
+                                <li class="item">禁止拍摄商业性用途的照片，允许拍照的展览，请勿使用闪光灯、自拍杆以及脚架；</li>
+                                <li class="item">在场馆内进行讲学、调查、摄录等活动，请提前向馆方申请，依照规定获得许可后方可实施；</li>
+                                <li class="item">收费特展不在免费参观的范围内；</li>
+                                <li class="item">如遇各类突发事件，须服从工作人员指挥。</li>
+                            </ul>
+                            <!-- <div class="ewmbox"><img src="/assets/audioguideewm.84082032.jpg" alt="扫一扫，微信听语音">
+                                <p>扫一扫，微信听语音</p>
+                            </div> -->
+                        </div>
+                        <div class="cutline"></div>
+                        <h3 class="innercommontitle">服务指南</h3>
+                        <div class="fwzn">
+                            <ul class="cgxz-list">
+                                <li class="item">免费为观众提供咨询服务，并热忱接受观众的建议和监督；</li>
+                                <li class="item">免费为观众提供存包服务；</li>
+                                <li class="item">免费为观众提供常用急救药品和针线；</li>
+                                <li class="item">本馆为观众提供自助语音导览，可通过关注成都市失恋博物馆微信公众号（zjmuseum）和现场扫描微信小程序二维码免费使用；</li>
+                                <li class="item">本馆对个人、团体等成年观众实行收费讲解服务，讲解内容由观众自选并提前预约，具体收费标准请参照【讲解服务】；</li>
+                            </ul>
+                        </div>
+                    </main>
+                    <aside class="aside">
+                        <nav class="common-aside aside-nav">
+                            <ul>
+                                <li class="nav-item active"><a href="/Service/TourGuide" aria-current="page"
+                                        class="active">参观指南</a>
+                                </li>
+                                <li class="nav-item"><a href="/Service/AppointExplain">讲解服务</a>
+                                </li>
+                                <li class="nav-item"><a href="/Service/Volunteer">帮忙服务</a>
+                                </li>
+                                <li class="nav-item"><a href="/Service/MuseumShop">博物馆文化</a>
+
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="common-aside aside-exh"><a
+                                href="#">
+                                <figure class="css-bvybze portal-picture"><img class="css-16pe6ju" alt=""
+                                        src="img/visit/012adc5ce7a343a80121a4709a8000.jpg@2o.jpg">
+                                </figure>
+                                <div class="d">
+                                    <h3 class="tilte">瓯越遗珠——成都市展览物品</h3>
+                                    <p class="p">2023.09.29 - 2023.11.05</p>
+                                    <p class="p">成都市失恋博物馆成华区</p>
+                                </div>
+                            </a></div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="commentModuleRef">
+        <div id="commentModule" class="commentModule normalModule">
+            <div class="moduleTitle">用户点评<!-- -->(28)</div>
+            <div class="averageScoreBox"><span class="averageScore">4.6</span>/5分</div>
+            <div class="hotTags"><span class="hotTag current">全部(<!-- -->28<!-- -->)</span><span
+                    class="hotTag">视频/图片<!-- -->(24)</span><span class="hotTag">好评<!-- -->(25)</span><span
+                    class="hotTag">只看点评<!-- -->(28)</span><span class="hotTag">消费后评价<!-- -->(3)</span><span
+                    class="hotTag">差评<!-- -->(2)</span></div>
+            <div class="sortList"><span class="sortTag current">智能排序</span><span class="sortTag">时间排序</span></div>
+            <div class="commentList">
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0Z83u120008iwa207E386_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">月垠星兮</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            很不错哈，第一次来这种类型的博物馆，里面还是挺好玩的，项目比较多，还有分娩体验。哈哈，这个可以带上自己的对象过来体验一下。除此之外，这里还有一个脱单便利店，这个对单身的朋友还是挺友好的，有需要做单的朋友可以过来写一个瓶子，说不定就会遇见那个他呀。整个场馆的面积也挺大的，价格还是算比较划算，性价比比较高的一家店铺挺不错的，整体综合五分呢。
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0104b120009b7y4fvD24B_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0104b120009b7y4fvD24B_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/01039120009b7wud300CC_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/01039120009b7wud300CC_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100e120009b7usgcE777_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100e120009b7usgcE777_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/01003120009b80lsx71A4_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/01003120009b80lsx71A4_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-02-13<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">_WeCh****844093</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            美丽、明朗、安然、闲逸、知足、宁静、和谐，如果用这几个词来形容我心中的博物馆，那真是合适不过了。它端庄、高贵、平稳，一肌一妍都尽显贵族气质。它淳朴、老道、踏实，一貌一笑都尽绽平华个性。那里天蓝水幽云淡，沐浴着纯净的光辉，洋溢着圣洁的意韵。站在门前体验着博物馆的光辉，洋溢着圣洁的意韵。站在门前体验着博物馆的气质，是何等的诗意。远望，它大气、豪迈；近视，它错落有致，活泼生动，一环环流露着独特的连贯而不重复的美感。如果看见我心中的博物馆，那雅望非常，仪态万方，这才是对它远益清，外传数里。美丽、明朗、安然、闲逸、悠远、知足、宁静、和谐造成了我对心中博物馆的想象，它温婉又大方，和顺又豪爽，庄严又亲切，仪态万方又风流倜傥。
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106q12000996s0kzDF60_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106q12000996s0kzDF60_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0105u12000996s1j8F436_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0105u12000996s1j8F436_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102z12000996rwlkA8E2_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102z12000996rwlkA8E2_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0104012000996s2rx4262_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0104012000996s2rx4262_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0101112000996ryf0DA08_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0101112000996ryf0DA08_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106612000996s2v328B3_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106612000996s2v328B3_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0104012000996s4d963FA_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0104012000996s4d963FA_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-15<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/Z804180000013uqy3DB02_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">lzjun1218</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            主题很丰富，👍👍也提供许多解压的设施攻自己解压，推荐大家带上一位朋友👄，一起挺适合拍照的。儿时记忆的小霸王游戏机可以坐着玩一上午，游戏种类非常的多，呐喊满格还有小礼品赠送，还有枕头大战超减压的，入口的失恋管，有很多潸然泪下的故事，很感人。周末或者假期消遣的好去处。😂
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0107312000990d62nEE41_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0107312000990d62nEE41_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100h12000990d3os8D56_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100h12000990d3os8D56_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102a12000990cyhg5D62_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102a12000990cyhg5D62_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0103q12000990czla2E63_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0103q12000990czla2E63_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-13<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">M47****4766</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            这家店铺真的很不错哟，我们在刷抖音的时候刷到这家店的，然后刚好看到位置也比较近，就在春熙路，我们离得也不远，就想说今天趁周末过来玩一下嘛，到店之后还是挺不错的，里面间很多解压馆里面的一些设备，但是挺好玩的，水母房间很好看哟😊😊，喜欢拍照的朋友可以过来体验
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100r1200098iebzp6735_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100r1200098iebzp6735_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/010331200098idx5s8D67_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/010331200098idx5s8D67_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100f1200098icy3h5EC2_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100f1200098icy3h5EC2_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100q1200098iadgu6E24_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100q1200098iadgu6E24_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-08<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/Z80p180000013uw9yF21F_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">M35****142</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            推荐推荐很好看的一家小店铺啊，非常适合女孩子过来拍照，店里的小姐姐也很热情，很温柔。环境很好哦，每个房间的装修也很好比较用心，每个房间的装饰。喜欢拍照的小姐，姐们一定不能错过呀，而且票价也比较便宜，便宜花几十块钱可以在里面玩一个下午
+                            的游玩时间的话是不限制的。可以说是超级划算了，值得五分推荐哦。 (☆^O^☆)</div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100q1200098hg1vs3D91_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100q1200098hg1vs3D91_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100s1200098hh9466B93_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100s1200098hh9466B93_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102i1200098hfs6c8080_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102i1200098hfs6c8080_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0104a1200098hfq4u63AB_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0104a1200098hfq4u63AB_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-08<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">M49****8447</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            在家场馆很不错哟，很适合拍照。喜欢拍照的朋友可以过来打卡哦，第一个房间的独角兽超大只的很好看，然后旁边后面还会有很多。不同的房间。这里除了他们本身的四个场馆以外，还会有额外的大头贴可以拍，然后这边还会有分娩体验，有想要体验的朋友都可以过来尝试一下哦。冲冲冲！🤙🤙🤙🌝🌝
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100o1200098h6b6i66B4_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100o1200098h6b6i66B4_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106w1200098h6byg5AC2_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106w1200098h6byg5AC2_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106s1200098h6ga0D1C3_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106s1200098h6ga0D1C3_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106q1200098h6fmgD1C5_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106q1200098h6fmgD1C5_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/010431200098h6fmlA2CA_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/010431200098h6fmlA2CA_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-08<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">_WeCh****903405</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            很不错的一家店啊，店里的小哥哥小姐姐服务的很热情的，里面的场景也很好看，每一个房间的灯都特别好看，每个房间的灯都不一样，第一个房间有一个大的独角兽，然后里面还有有一个海洋词，可以在里面玩，旁边还有一个抽象的那种涂鸦的房间的，然后再过去的话，会有一个珠帘的房间，很梦幻那个房间，后面还有很多房间，就不一一说了，大家可以自己来体验哦，水母房间也很不错哦👀👀👀
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0101w1200098h00vp15F8_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0101w1200098h00vp15F8_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0105o1200098gzy6oACC3_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0105o1200098gzy6oACC3_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106o1200098h02s0047A_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106o1200098h02s0047A_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/010261200098gzxej1AE5_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/010261200098gzxej1AE5_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0105f1200098gzz6f660C_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0105f1200098gzz6f660C_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-08<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">_CFT0****7760</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            带妈妈过来打卡拍照的，因为这都是年轻人玩的东西，他也没有接触过，就想说带他过来体验一下，拍照还是很好看的，因为我们过来之后发现他们家是有四个馆，每个馆玩的东西都不一样，但是唯一一个共同点就是都很好玩，哈哈哈🌟🌟失恋博物馆里面有很多展品，他们连着的旁边还有一个解压馆，里面有一些小游戏啊，小设备可以玩，挺不错的，妈妈和我都玩的很开心哦😃
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102u1200098dmudw733F_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102u1200098dmudw733F_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0106j1200098dmp6x7B58_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0106j1200098dmp6x7B58_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0103f1200098dmxh35DDB_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0103f1200098dmxh35DDB_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102h1200098dmt3eFCCC_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102h1200098dmt3eFCCC_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0101y1200098dm8nc6851_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0101y1200098dm8nc6851_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-07<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/0AS1k120009l60yh36D69_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">M48****4070</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            嗯，我和朋友一起来玩里面有很多好看的，很适合拍照，新馆你有很多灯光，你有很多不同的房间不同的风格，我喜欢拍照的朋友们可以和朋友一起来玩，然后隔壁还有三个管他们家一共有四个款，嗯嗯。然后是在星空馆验票要把他们不要走错了。嗯，然后减压管理有很多小游戏都挺好玩的，嗯位置在春熙路妈呀，百货七楼。😍😍
+                        </div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/01025120009807qud6A2F_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/01025120009807qud6A2F_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/01033120009807ux09F99_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/01033120009807ux09F99_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0101n120009807u5d5AED_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0101n120009807u5d5AED_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102h1200098077b4FD67_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102h1200098077b4FD67_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2022-01-02<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="commentItem">
+                    <div class="userInfo">
+                        <div class="userImgBox"><img class="userImg"
+                                src="https://dimg04.c-ctrip.com/images/Z80o180000013ulur1D76_C_180_180.jpg" alt="">
+                        </div>
+                        <div class="userName">M48****783</div>
+                    </div>
+                    <div class="contentInfo">
+                        <div class="scroreInfo"><span class="averageScore"><img class="scoreIcon"
+                                    src="https://pages.c-ctrip.com/you/livestream/gs-dianping-score-5.png"
+                                    alt="">5<!-- -->分 <!-- -->超棒</span></div>
+                        <div class="commentDetail">
+                            有太多玩的了，发泄的，拍照的，脱单瓶之类的，他这里还有分娩体验，小姐姐们快带男朋友来体验体验😄😄😄，还有一个大头贴拍照他们家有四个馆，我去的时候都以为是分开的，结果是一家的，在独角兽星空艺术馆验票，奈斯👍，快约上朋友些一起来耍撒
+                            位置在春熙路茂业百货七楼</div>
+                        <div class="commentImgList"><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0100u1200097a62zu6345_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0100u1200097a62zu6345_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0103i1200097a26k217DF_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0103i1200097a26k217DF_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0102d1200097a4vtu6CF3_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0102d1200097a4vtu6CF3_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a><a target="_blank"
+                                href="https://dimg04.c-ctrip.com/images/0104o1200097a0v0d23C2_W_640_10000.jpg?proc=autoorient"><img
+                                    src="https://dimg04.c-ctrip.com/images/0104o1200097a0v0d23C2_D_180_180.jpg?proc=autoorient"
+                                    alt=""></a></div>
+                        <div class="commentFooter">
+                            <div class="commentTime">2021-12-23<span class="ipContent">IP属地：<!-- -->未知</span></div>
+                            <div class="toolsBox"><span class="toolsItem reportItem"><span
+                                        class="common-iconfont toolsIcon reportIcon"></span>举报</span><span
+                                    class="toolsItem"><span
+                                        class="common-iconfont toolsIcon votedIcon"></span>点赞</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+     <!-- 页脚1开始 -->
+     <div class="footer1">
+        <div class="wrap">
+            <div class="footer-service">
+                <ul style="text-align: center;list-style: none;">
+                    <li><a href="index.html"><span>首页</span></a></li>
+                    <li><a href="liuyan.html"><span>留言板</span></a></li>
+                    <li><a href="copywriter.html"><span>文案馆</span></a></li>
+                    <li><a href="story.html"><span>故事墙</span></a></li>
+                    <li><a href="music.html"><span>音乐馆</span></a></li>
+                    <li><a href="myself.html"><span>我的房间</span></a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-links" style="margin-left: 50px;">
+                <ul>
+                    <li>首页</li>
+                    <li><a href="index.html">故事分享</a></li>
+                    <li><a href="index.html">线下门店</a></li>
+                    <li><a href="index.html">开馆意义</a></li>
+                </ul>
+                <ul>
+                    <li>留言板</li>
+                    <li><a href="liuyan.html">弹幕墙</a></li>
+                    <li><a href="liuyan.html">评论</a></a></li>
+                </ul>
+                <ul>
+                    <li>文案馆</li>
+                    <li><a href="copywriter.html">文案墙</a></li>
+                    <li><a href="copywriter.html">文案照片</a></li>
+                    <li><a href="copywriter.html">小婵故事</a></li>
+                </ul>
+                <ul>
+                    <li>故事墙</li>
+                    <li><a href="story.html">故事墙</a></li>
+                    <li><a href="story.html">故事分享</a></li>
+                    <li><a href="story.html">故事集</a></li>
+                </ul>
+                <ul>
+                    <li>音乐馆</li>
+                    <li><a href="music.html">经典音乐</a></a></li>
+                    <li><a href="music.html">恋爱导师视频</a></a></li>
+                    <li><a href="music.html">情感语录</a></li>
+                </ul>
+                <ul>
+                    <li>我的房间</li>
+                    <li><a href="myself.html">我的相册</a></li>
+                    <li><a href="myself.html">我的收藏</a></li>
+                    <li><a href="myself.html">我的记录</a></li>
+                </ul>
+                <div class="contact">
+                    <p class="tel">400-100-5678</p>
+                    <p class="week">周一至周日 8:00-18:00
+                        <br>
+                        （仅收市话费）
+                    </p>
+                    <a href="#" class="kefu">
+                        <i class="iconfont">&#xe710;</i>
+                        人工客服
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚1结束 -->
+    <!-- 页脚2开始 -->
+    <div class="footer2">
+        <div class="wrap">
+            <!-- <img src="images/logo-footer.png" alt="" class="logo-footer"> -->
+            <div class="info" style="text-align: center;">
+                
+                <p class="p2">
+                    © mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号 <br>
+  （京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京)-非经营性-2014-0090 营业执照 医疗器械质量公告 <br>
+  增值电信业务许可证 网络食品经营备案（京）【2018】WLSPJYBAHF-12  食品经营许可证 <br>
+  违法和不良信息举报电话：185-0130-1238 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
+  
+            </div>
+        </div>
+    </div>
+    <!-- 页脚2结束 -->
+    <script src="./js/visit.js"></script>
+</body>
+
+</html>
